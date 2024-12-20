@@ -1,0 +1,247 @@
+*
+{padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+header{
+    height:10vh;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+    position:absolute;
+    top:2%;
+}
+.heade1{
+    height:100%;
+    width:20%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heade1 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:3.5rem;
+  color:#ff7200;
+}
+.heade2{
+    height:100%;
+    width:45%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.heade2 a{
+font-size:1rem;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+color:#ffffffff;
+font-weight: 600;
+margin:4%;
+transition: all;
+transition-timing-function: linear;
+transition-duration:0.5s;
+}
+.heade2 a:hover{
+    color:rgb(240, 59, 59);
+}
+.header3{
+    height:100%;
+    width:35%;
+    /* background-color: rgb(54, 154, 27); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search{
+    height:60%;
+    width:70%;
+    /* background-color: bisque; */
+    display: flex;
+  border-radius:10px;
+  border:1.8px solid #ff7200;
+   
+}
+.header3 input{
+    padding-left:3%;
+ height:100%;
+ width:70%;
+ font-size:1.1rem;
+ padding-top:1%;
+ border-top-left-radius:8px ;
+ border-bottom-left-radius:8px ;
+ border:none;
+ background-color:ghostwhite;
+}
+.header3 input:focus{
+    outline:none;
+}
+.search p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ff7200;
+    height:100%;
+    width:30%;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+}
+/* main */
+main{
+    height:100vh;
+    width:100%;
+    background-image: url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+    background-size: cover;
+}
+.main2{
+    height:90%;
+    width:100%;
+    background-color:transparent;
+    position: relative;
+    top:10%;
+    display: flex;
+    align-items: center;
+}
+.left{
+    height:100%;
+    width:55%;
+    background-color:transparent;
+}
+.left h2{
+    font-size:4.6rem;
+    position: relative;
+    left:8%;
+    top:18%;
+    font-weight: 900;
+    font-family: "Zilla Slab", serif;
+ color: #ffffffff;
+}
+.left h2 span{
+   color:#ff7200;
+    
+}
+.left p{
+    position: relative;
+    left:8%;
+    top:19%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    opacity:0.71;
+    line-height:25px;
+    color: #ffffffff;
+}
+.left button{
+    height:40px;
+    width:160px;
+    font-size:1.4rem;
+    border-radius:12px;
+    font-weight:500;
+    background-color: #ff7200;
+    border: none;
+    color:#000000;
+    position: relative;
+    left:8%;
+    top:21%;
+}
+/* right */
+.right{
+    height:65%;
+    width:26%;
+    background-color:black;
+    margin-left:10%;
+    border-radius:15px;
+    opacity:0.9;
+}
+.button1{
+    height:10%;
+    width:80%;
+    display: flex;
+justify-self: center;
+margin-top:5%;
+font-size:1.7rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #ff7200;
+background-color:white;
+padding-left:22%;
+padding-top:2.5%;
+border-radius:15px;
+border: none;
+ 
+}
+.input1{
+    height:25%;
+    width:80%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left:10%;
+    margin-top:5%;
+}
+.input1 input{
+height:38%;
+width:100%;
+font-size:1.2rem;
+border: none;
+border-bottom: 1px solid #ff7200;
+color: rgb(243, 242, 242);
+background-color:transparent;
+}
+.input1 input:focus{
+    outline:none;
+}
+.button2{
+    height:9.5%;
+    width:80%;
+    display: flex;
+justify-self: center;
+margin-top:8%;
+font-size:1.7rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #000000;
+background-color:#ff7200;
+padding-left:30%;
+padding-top:2%;
+border-radius:15px;
+border: none;
+}
+.right p{
+    font-size:1.11rem;
+     text-align: center;
+    margin-top:5.5%;
+    color: #ffffffff;
+}
+
+.right p span{
+    color:#ff7200;
+    font-weight: 600;
+}
+.right a{
+    font-size:1.1111rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffffff;
+ position: relative;
+ left:40.5%;
+ 
+}
+.right i{
+    font-size:1.5rem;
+     position: relative;
+     top:10%;
+     left:3%;
+     margin:2%;
+     color: #ffffffff;
+     opacity:0.9;
+}
